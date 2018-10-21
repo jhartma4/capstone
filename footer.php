@@ -6,5 +6,5 @@
     <i class="fa fa-pinterest-p w3-hover-opacity"></i>
     <i class="fa fa-twitter w3-hover-opacity"></i>
  </div>
- <p>Some footer text.</p>
+ <p>Coyright 2018. Created by CF, JT, and JH.</p>
 </footer>
