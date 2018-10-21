@@ -60,9 +60,9 @@
 
     <div class="w3-twothird">
       <h1>About Our Recipes</h1>
-      <h5 class="w3-padding-32">Written for cooks, by cooks</h5>
+      <h5 class="w3-padding-32">Created by a community of cooks</h5>
 
-      <p class="w3-text-grey">We know the struggle of figuring out what's for dinner and how to please everyone you're cooking for. Whether it's a regular weekday or special occasion, we have a solution. Our recipes are a collection or tried-and-true favorites, sure to please your entire family.</p>
+      <p class="w3-text-grey">We know the struggle of figuring out what's for dinner and how to please everyone you're cooking for. Whether it's a regular weekday or special occasion, we have a the perfect recipe. Our recipes are a collection or tried-and-true favorites, sure to please your entire family.</p>
     </div>
   </div>
 </div>
