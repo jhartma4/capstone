@@ -1,8 +1,8 @@
 <? php
-    $dbServer = "capstone";
+    $dbServer = "localhost";
     $dbUsername = "root";
     $dbPassword = "root";
-    $dbName = "blog_cms";
+    $dbName = "capstone";
 
     $conn = mysqli_connect($dbServer, $dbUsername, $dbPassword, $dbName);
 ?>
