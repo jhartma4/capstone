@@ -75,6 +75,10 @@
     <h1 class="w3-margin w3-xlarge">Quote of the day: An apple a day, keeps the doctor away.</h1>
 </div>
 
+<?php
+  include 'footer.php';
+?>
+
 <script>
 // Used to toggle the menu on small screens when clicking on the menu button
 function myFunction() {
