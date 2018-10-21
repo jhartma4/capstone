@@ -17,17 +17,19 @@
   </head>
 
   <?php
-     function getRecipeTitlesFromDatabase() {
-     include_once 'db_connect.php';
-     $sql = "SELECT title FROM recipes";
-     $result = mysqli_query($conn, $sql);    
+     
+    function getPostDetailsFromDatabase() {
+    
+    $postTitle = rawurldecode($_GET["title"]);
+  
+    include_once 'db_connect.php';
+    $sql = "SELECT * FROM posts WHERE title='" . $postTitle . "'";
+    $result = mysqli_query($conn, $sql);
+  
+    $postDetails = mysqli_fetch_assoc($result);
+    return $postDetails;
+  }
 
-     $postTitles = array();
-     while($row = mysqli_fetch_assoc($result)){
-     array_push($postTitles, $row['title']);
-     }
-     return $postTitles;
-     }
 ?>
 <body>
 
@@ -74,10 +76,6 @@
 <div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
     <h1 class="w3-margin w3-xlarge">Quote of the day: An apple a day, keeps the doctor away.</h1>
 </div>
-
-<?php
-  include 'footer.php';
-?>
 
 <script>
 // Used to toggle the menu on small screens when clicking on the menu button
