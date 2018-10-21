@@ -23,7 +23,7 @@
     $postTitle = rawurldecode($_GET["title"]);
   
     include_once 'db_connect.php';
-    $sql = "SELECT * FROM posts WHERE title='" . $postTitle . "'";
+    $sql = "SELECT * FROM recipes WHERE title='" . $postTitle . "'";
     $result = mysqli_query($conn, $sql);
   
     $postDetails = mysqli_fetch_assoc($result);
