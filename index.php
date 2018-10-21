@@ -1,7 +1,6 @@
 <?php
   include 'nav.php';
   include 'header.php';
-  include 'footer.php';
 ?>
 
 <!DOCTYPE html>
@@ -89,6 +88,11 @@ function myFunction() {
 </script>
 
 </body>
+
+<?php
+  include 'footer.php';
+?>
+
 </html>
 
 
