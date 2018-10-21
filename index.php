@@ -15,6 +15,20 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="style.css">
   </head>
+
+  <?php
+     function getRecipeTitlesFromDatabase() {
+     include_once 'db_connect.php';
+     $sql = "SELECT title FROM recipes";
+     $result = mysqli_query($conn, $sql);    
+
+     $postTitles = array();
+     while($row = mysqli_fetch_assoc($result)){
+     array_push($postTitles, $row['title']);
+     }
+     return $postTitles;
+     }
+?>
 <body>
 
 <!-- First Grid -->
@@ -78,6 +92,11 @@ function myFunction() {
 </script>
 
 </body>
+
+<?php
+  include 'footer.php';
+?>
+
 </html>
 
 
