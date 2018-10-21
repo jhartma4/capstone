@@ -1,7 +1,6 @@
 <?php
   include 'nav.php';
   include 'header.php';
-  include 'footer.php';
 ?>
 
 <!DOCTYPE html>
@@ -39,3 +38,7 @@
     </div>
   </div>
 </div>
+
+<?php
+  include 'footer.php';
+?>
