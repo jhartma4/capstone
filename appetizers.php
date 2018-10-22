@@ -60,7 +60,8 @@
 </div>
 
 <div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
-    <h1 class="w3-margin w3-xlarge">Quote of the day: An apple a day, keeps the doctor away.</h1>
+    <h1 class="w3-margin w3-xlarge">We all eat, it would be a waste of opportunity to eat badly. 
+    <br />-- Anna Thomas</h1>
 </div>
 
 <?php

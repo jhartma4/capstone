@@ -17,7 +17,7 @@
 <body>
 
 <header class="w3-container w3-green w3-center" style="padding:60px 16px">
-  <h1 class="w3-margin w3-jumbo">Cocktails</h1>
+  <h1 class="w3-margin w3-jumbo">Drinks</h1>
   <p class="w3-xlarge">Get the party started with these fun libations.</p>
 </header>
 
@@ -60,7 +60,8 @@
 </div>
 
 <div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
-    <h1 class="w3-margin w3-xlarge">Quote of the day: An apple a day, keeps the doctor away.</h1>
+    <h1 class="w3-margin w3-xlarge">I don't look like someone who leans on a mantelpiece with cocktail in my hand, you know. 
+      <br />-- Charles Bronson</h1>
 </div>
 
 <?php
