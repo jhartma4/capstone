@@ -26,17 +26,11 @@
   <div class="w3-content">
     <div class="w3-twothird">
       <h1>Cocktails everyone will love!</h1>
-      <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
-
-      <p class="w3-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-        laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-      <li>Recipe 1</li>
+      <h5 class="w3-padding-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
     </div>
 
     <div class="w3-third w3-center">
-      <i class="fa fa-apple w3-padding-64 w3-text-red"></i>
+      <i class="fa fa-apple w3-padding-32 w3-text-red"></i>
     </div>
   </div>
 </div>
@@ -49,12 +43,32 @@
     </div>
 
     <div class="w3-twothird">
-      <h1>Festive drinks!</h1>
-      <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
+      <!-- First attempt at linking to list of recipes in database -->
+      <p class="w3-text-grey">
+      <?php 
+        function getPostDetailsFromDatabase() {
+          $postDetails = array(
+            'Title' => 'Drink Post 1',
+            'Author' => 'Jane Doe',
+            'Ingredients' => 'Scotch',
+            'Directions' => 'Serve neat',
+            'ID' => 'First'
+          );
+          return $postDetails;
+        }
+      ?>
 
-      <p class="w3-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-        laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <?php 
+        $postDetails = getPostDetailsFromDatabase();
+      ?>
+
+      <h1> <?php echo $postDetails["Title"]; ?> </h1>
+      <h2> by: <?php echo $postDetails["Author"]; ?> </h2>
+      <h5 class="w3-padding-16">Here's some text for a recipe description. We may wish to add a field for this item in the database.</h5>
+      <h5 class="w3-padding-16"><li>Ingredients: <?php echo $postDetails["Ingredients"]; ?> </li></h5>
+      <div>Directions: <?php echo $postDetails["Directions"]; ?> </div>
+
+      </p>
     </div>
   </div>
 </div>
