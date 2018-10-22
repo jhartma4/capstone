@@ -50,19 +50,11 @@
     </div>
 
     <div class="w3-twothird">
-<<<<<<< HEAD
-      <h1>Festive drinks!</h1>
-      <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
-
-      <p class="w3-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-        laboris nisi ut aliquip ex ea commodo consequat.</p>
-=======
       <h1>About Our Recipes</h1>
       <h5 class="w3-padding-32">Created by our community of cooks</h5>
 
       <p class="w3-text-grey">We know the struggle of figuring out what's for dinner and how to please everyone you're cooking for. Whether it's a regular weekday or special occasion, we have a the perfect recipe. Our recipes are a collection or tried-and-true favorites, sure to please your entire family.</p>
->>>>>>> 828d916624b0c854bfd966d2540b21efbb9a0e95
+
     </div>
   </div>
 </div>
