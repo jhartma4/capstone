@@ -22,11 +22,16 @@
 </header>
 
 <form action="/submit-post.php">
-  Full name: <input type="text" name="Full Name" value=""><br>
-  Category: <input type="enum" name="Category" value="drinks, appetizers, entrees"><br>
-  Title: <input type="text" name="Title" value=""><br>
-  Ingredients: <textarea rows="4" cols="50"></textarea><br>
-  Directions: <textarea rows="4" cols="50"></textarea><br>
+  Full Name <input type="text" name="Full Name" value=""><br>
+  <label>Category</label>
+      <select id = "myList">
+        <option value = "1">Drinks</option>
+        <option value = "2">Appetizers</option>
+        <option value = "3">Entrees</option>
+      </select><br>
+  Title <input type="text" name="Title" value=""><br>
+  Ingredients <textarea rows="4" cols="50"></textarea><br>
+  Directions <textarea rows="4" cols="50"></textarea><br>
   <button type="submit" value="Submit">Submit</button>  
   <button type="reset" value="Reset">Reset</button>
 </form>
