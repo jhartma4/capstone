@@ -16,17 +16,17 @@
   </head>
 <body>
 
-<header class="w3-container w3-blue w3-center" style="padding:60px 16px">
-  <h1 class="w3-margin w3-jumbo">Appetizers</h1>
-  <p class="w3-xlarge">Everyone loves these easy to make favorites.</p>
+<header class="w3-container w3-yellow w3-center" style="padding:60px 16px">
+  <h1 class="w3-margin w3-jumbo">Entrees</h1>
+  <p class="w3-xlarge">Delicious dinners that your guests will love.</p>
 </header>
 
 <!-- First Grid -->
 <div class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content">
     <div class="w3-twothird">
-      <h1>Appetizers Intro</h1>
-      <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
+      <h1>Your guests wil be clammoring for this recipe</h1>
+      <h5 class="w3-padding-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
     </div>
 
     <div class="w3-third w3-center">
@@ -43,15 +43,15 @@
     </div>
 
     <div class="w3-twothird">
-       <!-- First attempt at linking to list of recipes in database -->
-       <p class="w3-text-grey">
+      <!-- First attempt at linking to list of recipes in database -->
+      <p class="w3-text-grey">
       <?php 
         function getPostDetailsFromDatabase() {
           $postDetails = array(
-            'Title' => 'Appetizer Post 1',
+            'Title' => 'Entree Post 1',
             'Author' => 'Jane Doe',
-            'Ingredients' => 'Scotch',
-            'Directions' => 'Serve neat',
+            'Ingredients' => 'Chicken Parmigiana',
+            'Directions' => 'Cook it',
             'ID' => 'First'
           );
           return $postDetails;
@@ -74,8 +74,8 @@
 </div>
 
 <div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
-    <h1 class="w3-margin w3-xlarge">Yeah the appetizer, that's the food we eat before we have our food...no no you're thinking of dessert, that's food we eat after we have our food. 
-    <br />- Jim Gaffigan</h1>
+    <h1 class="w3-margin w3-xlarge">We all eat, and it would be a sad waste of opportunity to eat badly. 
+      <br />-Anna Thomas</h1>
 </div>
 
 <?php
@@ -96,5 +96,3 @@ function myFunction() {
 
 </body>
 </html>
-
-

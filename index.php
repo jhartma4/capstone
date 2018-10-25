@@ -19,7 +19,12 @@
 <header class="w3-container w3-red w3-center" style="padding:128px 16px">
   <h1 class="w3-margin w3-jumbo">Recipes for Entertaining</h1>
   <p class="w3-xlarge">Easy recipes to make your party a hit!</p>
-  <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Submit a recipe!</button>
+<div class="buttonwrapper">
+    <a target="_blank" href="post-submission.php">
+    <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Submit a recipe</button>
+</a>
+</div>
+  
 </header>
 
 <!-- First Grid -->
@@ -48,9 +53,9 @@
 
     <div class="w3-twothird">
       <h1>About Our Recipes</h1>
-      <h5 class="w3-padding-32">Created by our community of cooks</h5>
+      <h5 class="w3-padding-32">Created by our community of party people</h5>
 
-      <p class="w3-text-grey">We know the struggle of figuring out what's for dinner and how to please everyone you're cooking for. Whether it's a regular weekday or special occasion, we have a the perfect recipe. Our recipes are a collection or tried-and-true favorites, sure to please your entire family.</p>
+      <p class="w3-text-grey">We know the struggle of figuring out what to serve at a party and how to please everyone you're cooking for. Whether it's a special occasion or impromptu dinner party, we have a the perfect recipe. Our recipes are a collection or tried-and-true favorites, sure to please all of your guests.</p>
 
     </div>
   </div>
