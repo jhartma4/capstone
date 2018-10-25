@@ -21,15 +21,40 @@
   <p class="w3-xlarge">Add to the collection of party favorites.</p>
 </header>
 
-<form action="/submit-post.php">
-  Full Name <input type="text" name="Full Name" value=""><br>
-  Category <select id = "myList">
-    <option value = "1">Drinks</option>
-    <option value = "2">Appetizers</option>
-    <option value = "3">Entrees</option></select><br>
-  Title <input type="text" name="Title" value=""><br>
-  Ingredients <textarea rows="4" cols="50"></textarea><br>
-  Directions <textarea rows="4" cols="50"></textarea><br>
+<!-- Form -->
+<form style="padding: 100px">
+  <div class="container">
+  <form action="submit-post.php" method="POST">
+  <div class="row">
+    <div class="col-75">
+      <label for="fname">Full name</label> 
+      <input class="w3-input w3-border w3-round" type="text" value="" style="width:40%"><br />
+    </div>
+
+    <div class="col-75">
+      <label for="category">Category</label><br />   
+      <select id = "myList">
+        <option value = "1">Drinks</option>
+        <option value = "2">Appetizers</option>
+        <option value = "3">Entrees</option></select><br />
+    </div><br />
+
+    <div class="col-75">
+      <label for="recipeTitle">Title of Recipe</label> 
+      <input class="w3-input w3-border w3-round" type="text" value="" style="width:40%"><br />
+    </div>
+
+    <div class="col-75">
+      <label for="ingredients">Ingredients</label>
+      <textarea  class="w3-input w3-border w3-round" placeholder="List your ingredients" style="width:60%">
+      </textarea><br />
+
+    <div class="col-75">
+      <label for="directions">Directions</label>
+      <textarea  class="w3-input w3-border w3-round" placeholder="Type your recipe here." style="width:60%">
+      </textarea><br />
+    </div><!-- </div> end of row -->
+  </div><!-- </div> end of container -->
   <button type="submit" value="Submit">Submit</button>  
   <button type="reset" value="Reset">Reset</button>
 </form>
