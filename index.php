@@ -55,14 +55,14 @@
       <h1>About Our Recipes</h1>
       <h5 class="w3-padding-32">Created by our community of party people</h5>
 
-      <p class="w3-text-grey">We know the struggle of figuring out what to serve at a party and how to please everyone you're cooking for. Whether it's a special occasion or impromptu dinner party, we have a the perfect recipe. Our recipes are a collection or tried-and-true favorites, sure to please all of your guests.</p>
+      <p class="w3-text-grey">We know the struggle of figuring out what to serve at a party and how to please everyone you're cooking for. Whether it's a special occasion or impromptu dinner party, we have the perfect recipe. Our recipes are a collection or tried-and-true favorites, sure to please all of your guests.</p>
 
     </div>
   </div>
 </div>
 
 <div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
-    <h1 class="w3-margin w3-xlarge">Find a recipe. Be inspired.</h1>
+    <h1 class="w3-margin w3-xlarge">Find a recipe. Get your party on.</h1>
 </div>
 
 <?php
