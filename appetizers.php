@@ -58,9 +58,6 @@
         }
       ?>
 
-      <?php 
-        $postDetails = getPostDetailsFromDatabase();
-      ?>
 
       <h1> <?php echo $postDetails["Title"]; ?> </h1>
       <h2> by: <?php echo $postDetails["Author"]; ?> </h2>
