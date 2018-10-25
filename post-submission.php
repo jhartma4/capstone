@@ -26,8 +26,7 @@
   Category <select id = "myList">
     <option value = "1">Drinks</option>
     <option value = "2">Appetizers</option>
-    <option value = "3">Entrees</option>
-  </select><br>
+    <option value = "3">Entrees</option></select><br>
   Title <input type="text" name="Title" value=""><br>
   Ingredients <textarea rows="4" cols="50"></textarea><br>
   Directions <textarea rows="4" cols="50"></textarea><br>
