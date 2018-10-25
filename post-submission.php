@@ -32,9 +32,12 @@
     </div>
 
     <div class="col-75">
-      <label for="category">Category</label> 
-      <input class="w3-input w3-border w3-round" type="text" placeholder="drinks, appetizers, entrees" style="width:40%"><br />
-    </div>
+      <label for="category">Category</label><br />   
+      <select id = "myList">
+        <option value = "1">Drinks</option>
+        <option value = "2">Appetizers</option>
+        <option value = "3">Entrees</option></select><br />
+    </div><br />
 
     <div class="col-75">
       <label for="recipeTitle">Title of Recipe</label> 
