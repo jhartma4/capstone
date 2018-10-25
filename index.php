@@ -1,5 +1,6 @@
 <?php
   include 'nav.php';
+  include_once 'includes/db_connect.php';
 ?>
 
 <!DOCTYPE html>
@@ -15,6 +16,7 @@
     <link rel="stylesheet" href="style.css">
   </head>
 <body>
+
 
 <header class="w3-container w3-red w3-center" style="padding:128px 16px">
   <h1 class="w3-margin w3-jumbo">Recipes for Entertaining</h1>
