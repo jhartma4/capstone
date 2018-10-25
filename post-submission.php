@@ -22,8 +22,8 @@
 </header>
 
 <form action="/submit-post.php">
-  First name: <input type="text" name="FirstName" value=""><br>
-  Last name: <input type="text" name="LastName" value=""><br>
+  Full name: <input type="text" name="First Name" value=""><br>
+  Category: <input type="enum" name="Category" value="drinks, appetizers, entrees"><br>
   Title: <input type="text" name="Title" value=""><br>
   Ingredients: <input type="longtext" name="Ingredients" value=""><br>
   <textarea rows="4" cols="50"></textarea><br>
