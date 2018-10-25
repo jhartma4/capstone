@@ -16,13 +16,14 @@
     <link rel="stylesheet" href="style.css">
   </head>
 <body>
-<header class="w3-container w3-red w3-center" style="padding:128px 16px">
-  <h1 class="w3-margin w3-large">Submit a Recipe</h1>
+<header class="w3-container w3-yellow w3-center" style="padding:60px 16px">
+  <h1 class="w3-margin w3-jumbo">Submit a Recipe</h1>
+  <p class="w3-xlarge">Add to the collection of party favorites.</p>
 </header>
 
 <form action="/submit-post.php">
-  First name: <input type="text" name="FirstName" value=""><br>
-  Last name: <input type="text" name="LastName" value=""><br>
+  Full name: <input type="text" name="First Name" value=""><br>
+  Category: <input type="enum" name="Category" value="drinks, appetizers, entrees"><br>
   Title: <input type="text" name="Title" value=""><br>
   Ingredients: <input type="longtext" name="Ingredients" value=""><br>
   <textarea rows="4" cols="50"></textarea><br>
