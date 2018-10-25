@@ -25,7 +25,7 @@
 <div class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content">
     <div class="w3-twothird">
-      <h1>Your guests wil be clammoring for this recipe</h1>
+      <h1>Your guests will be clammoring for this recipe</h1>
       <h5 class="w3-padding-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
     </div>
 
