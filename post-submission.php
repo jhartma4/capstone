@@ -16,8 +16,9 @@
     <link rel="stylesheet" href="style.css">
   </head>
 <body>
-<header class="w3-container w3-red w3-center" style="padding:128px 16px">
-  <h1 class="w3-margin w3-large">Submit a Recipe</h1>
+<header class="w3-container w3-yellow w3-center" style="padding:60px 16px">
+  <h1 class="w3-margin w3-jumbo">Submit a Recipe</h1>
+  <p class="w3-xlarge">Add to the collection of party favorites.</p>
 </header>
 
 <form action="/submit-post.php">
