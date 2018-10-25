@@ -16,7 +16,7 @@
   </head>
 <body>
 
-<header class="w3-container w3-yellow w3-center" style="padding:60px 16px">
+<header class="w3-container w3-purple w3-center" style="padding:60px 16px">
   <h1 class="w3-margin w3-jumbo">Entrees</h1>
   <p class="w3-xlarge">Delicious dinners that your guests will love.</p>
 </header>
