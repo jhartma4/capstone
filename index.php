@@ -53,7 +53,7 @@
 
     <div class="w3-twothird">
       <h1>About Our Recipes</h1>
-      <h5 class="w3-padding-32">Created by our community of party people</h5>
+      <h5 class="w3-padding-32">Created by a community of party people</h5>
 
       <p class="w3-text-grey">We know the struggle of figuring out what to serve at a party and how to please everyone you're cooking for. Whether it's a special occasion or impromptu dinner party, we have the perfect recipe. Our recipes are a collection or tried-and-true favorites, sure to please all of your guests.</p>
 
