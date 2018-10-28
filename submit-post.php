@@ -6,15 +6,16 @@
 <html>
     <?php
         // get the data to insert into the db
+        $category = $_POST["category"];
+        $name = $_POST["name"];
         $title = $_POST["title"];
-        $content = $_POST["content"];
-        $author = $_POST["author"];
-        $date = $_POST["date"];
+        $ingredients = $_POST["ingredients"];
+        $directions = $_POST["directions"];
 
         // insert the data with the sql query
         include_once 'db_connect.php';
-        $sql="INSERT INTO recipes (title, content, author, date) VALUES ('" .     
-            $title . "','" .  $content . "','" . $author . "','" . $date . "')";
+        $sql="INSERT INTO recipes (category, name, title, ingredients, directions) VALUES ('" .     
+            $category . "','" .  $name . "','" . $title . "','" . $ingredients . "','" . $directions . "')";
         $result = mysqli_query($conn, $sql);
 
         // redirect to homepage

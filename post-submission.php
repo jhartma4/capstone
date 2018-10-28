@@ -40,7 +40,7 @@
     </div><br />
 
     <div class="col-75">
-      <label for="recipeTitle">Title of Recipe</label> 
+      <label for="recipeTitle">Title of recipe</label> 
       <input class="w3-input w3-border w3-round" type="text" value="" style="width:40%"><br />
     </div>
 
